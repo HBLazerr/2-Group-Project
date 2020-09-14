@@ -25,8 +25,7 @@ if(remainder1 == 15){
 console.log("Your Decimal number converts to " + number1 + remainder1 + " in Hexadecimal");
 //------------------------------------------------------
 let decimal = prompt(`Enter a decimal number between 0 and 255.`);
-let decimalforbinary = decimal;
-
+let decimalToBinary = decimal;
 
 let binary128 = 0;
 let binary64 = 0;
@@ -36,6 +35,7 @@ let binary8 = 0;
 let binary4 = 0;
 let binary2 = 0;
 let binary1 = 0;
+
 if(decimal >= 128)
 {
     decimal -= 128;
